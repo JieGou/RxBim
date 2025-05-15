@@ -17,10 +17,7 @@
     public abstract class RxBimCommand : IExternalCommand, IExternalCommandAvailability
     {
         /// <inheritdoc />
-        public Result Execute(
-            ExternalCommandData commandData,
-            ref string? message,
-            ElementSet elements)
+        public Result Execute(ExternalCommandData commandData, ref string? message, ElementSet elements)
         {
             var assembly = GetType().Assembly;
 

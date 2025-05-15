@@ -20,10 +20,7 @@
         /// <param name="applicationObject">application object.</param>
         /// <param name="uiControlledApp">Revit ui controlled application.</param>
         /// <param name="uiApp">Revit ui application.</param>
-        public ApplicationDiConfigurator(
-            object applicationObject,
-            UIControlledApplication uiControlledApp,
-            UIApplication uiApp)
+        public ApplicationDiConfigurator(object applicationObject, UIControlledApplication uiControlledApp, UIApplication uiApp)
         {
             _applicationObject = applicationObject;
             _uiControlledApp = uiControlledApp;

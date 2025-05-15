@@ -7,7 +7,8 @@
     using System.Reflection;
 
     /// <summary>
-    /// The resolver of dependent assemblies.
+    /// The resolver of dependent assemblies.<para/>
+    /// 依赖注入框架中，Resolver 用于创建和管理对象的实例
     /// </summary>
     public class AssemblyResolver : IDisposable
     {
